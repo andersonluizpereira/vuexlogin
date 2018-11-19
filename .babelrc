@@ -1,0 +1,11 @@
+// O arquivo de configuração do babel define as 
+//predefinições usadas pelo babel para transpilar o código ES6. 
+//O transpilador do babel é executado pelo webpack através do módulo
+// do carregador do babel configurado no arquivo webpack.config.js abaixo.
+
+{
+    "presets": [
+        "env",
+        "stage-0"
+    ]
+}

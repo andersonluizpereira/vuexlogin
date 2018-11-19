@@ -1,0 +1,3 @@
+A camada de serviços lida com toda a comunicação http com backend apis para o aplicativo, cada serviço encapsula as chamadas de api para um tipo de conteúdo (por exemplo, usuários) e expõe métodos para executar várias operações (por exemplo, operações CRUD). Os serviços também podem ter métodos que não envolvem chamadas http, por exemplo, o método userService.logout () apenas remove um item do armazenamento local.
+
+Eu gosto de envolver chamadas http e detalhes de implementação em uma camada de serviços, ele fornece uma separação clara de preocupações e simplifica os módulos vuex que usam os serviços.
